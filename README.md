@@ -1,1 +1,2 @@
 # DockerLite
+This project implements a minimal container runtime in Go that leverages Linux kernel features such as namespaces, chroot(), and cgroups to run isolated containers. It supports creating containers from root filesystem images, executing processes inside them, and optionally limiting resource usage. Designed for educational purposes, this runtime demonstrates the core principles behind container technology without the overhead of full Docker implementations.
